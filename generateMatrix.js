@@ -1,7 +1,7 @@
 const generateSpiralMatrix = (n) => {
     const results = []
     for(let i = 0; i < n ; i++) {
-       results.push([])
+       results.push([]);
     }
     let startColumn = 0;
     let endColumn = n - 1;
