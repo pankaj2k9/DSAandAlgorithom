@@ -3,7 +3,7 @@ const createRange = ( num1, num2 ) => {
     const helper = (helperInput, targetNum) => {
        rangeArr.push(helperInput);
        if(helperInput === targetNum) return targetNum;
-       helper(helperInput + 1, targetNum)
+       helper(helperInput + 1, targetNum);
     };
     helper(num1, num2);
     return rangeArr;
