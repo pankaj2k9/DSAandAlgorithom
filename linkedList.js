@@ -122,6 +122,9 @@ class LinkedList {
 
 const linkedList = new LinkedList(10)
 linkedList.push(11)
+linkedList.push(14)
+linkedList.push(15)
+linkedList.push()
 linkedList.insert(1, 12)
 linkedList.insert(2, 13)
 linkedList.reverse()
